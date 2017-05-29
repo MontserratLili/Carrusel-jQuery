@@ -3,51 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Carrusel</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <h1>Soy un Carrusel con jQuery</h1>
-    <section class="container">
+    <section  class="container">
         <section class="row">
-            <div class="modal col-12">
-                <div>
-                    <img src="assets/images/descarga.jpg" alt="">
+            <div id="fantasma1" class="visibilidad contenedor">
+                <div><button class="ghost1"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                    <img src="assets/images/ghost1.jpg" alt="">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="modal col-12">
-                <div>
-                    <img src="assets/images/images%20(1).jpg" alt="">
+            <div id="fantasma2" class="visibilidad contenedor">
+                <div><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <img src="assets/images/ghost2.jpg" alt="">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="modal col-12">
-                <div>
-                    <img src="assets/images/images%20(2).jpg" alt="">
+            <div id="fantasma3" class="visibilidad contenedor">
+                <div><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <img src="assets/images/ghost3.jpg" alt="">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="modal col-12">
-                <div>
-                    <img src="assets/images/images.jpg" alt="">
+            <div id="fantasma4" class="visibilidad contenedor">
+                <div><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <img src="assets/images/ghost4.jpg" alt="">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="modal col-12">
-                <div>
-                    <img src="assets/images/images.png" alt="">
+            <div id="pacmanimg" class="contenedor">
+                <div><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    <img src="assets/images/pacman.png" alt="">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </div>
             </div>
         </section>
-        <section class="row">
-            <div class="col-12">
-                <img class="" src="assets/images/" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-        </section>
+         <button class="bolitas" id="ghost1">a</button>
+         <button class="bolitas" id="ghost2">a</button>
+         <button class="bolitas" id="ghost3">a</button>
+         <button class="bolitas" id="ghost4">a</button>
+         <button class="bolitas" id="pacman">a</button>
     </section>
-    
-    
+   
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="https://use.fontawesome.com/173c8860f6.js"></script>
 </body>
 </html>

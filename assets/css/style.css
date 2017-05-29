@@ -1,0 +1,23 @@
+.visibilidad {
+    display: none;
+}
+
+#flip{
+margin: 0px;
+}
+#panel2{
+    position:absolute;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+}
+.bolitas{
+    border: none;
+    border-radius: 50%;
+    background-color: currentColor;
+}
